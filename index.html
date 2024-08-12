@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<h1>SPLI<br>TTER</h1>
+<body>
+<div class="container">
+  <form>
+    <label>Bill</label>
+      <img src="images/icon-dollar.svg" class="dollar"/><input placeholder="0" id="bill">
+        <label>Select Tip %</label>
+          <div class="radios">
+          <label class= "5">05%<input type="radio" name="select" value=5 id="5"></label>
+          <label class= "10">10%<input type="radio" name="select" value=10 id="10"></label>
+          <label class= "15">15%<input type="radio" name="select" value=15 id="15" checked="checked"></label>
+          <label class= "25">25%<input type="radio" name="select" value=25 id="25"></label>
+          <label class= "50">50%<input type="radio" name="select" value=50 id="50"></label>
+        
+            <input id="%" class="custom" placeholder="Custom" value="">
+          </div>
+            <label>Number of People</label>
+            <img class="person" src="images/icon-person.svg" /><input placeholder="0" id="people">
+  </form>
+<div class="result">
+  <div class="align__total">
+    <div class="align__divs1">
+  <h1>Tip Amount</h1>
+    <p>/person</p> 
+    </div>
+      <div id="Amount__per"></div>
+    </div>
+        <div class="align__total">
+          <div class="align__divs2">
+            <h1>Total</h1>
+              <p>/person</p>
+                </div>
+                  <div id="Total__per"></div>
+                    </div>
+                      <button onclick="reset()">RESET</button>
+</div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Alan-H-H">Alan Hackbartt</a>.
+  </div>
+    <script src="src/index.js"></script>
+</body>
+</html>

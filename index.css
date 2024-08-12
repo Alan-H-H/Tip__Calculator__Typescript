@@ -1,0 +1,161 @@
+body {
+  background-color: hsl(185, 41%, 84%);
+  text-align: center;
+  font-family: "Space Mono", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 1em;
+  color: hsl(186, 14%, 43%);
+  font-weight: 700;
+}
+form input {
+  background-color: hsl(189, 41%, 97%);
+  padding: 0.5em 0em;
+  border: none;
+  text-align: right;
+  font-size: 24px;
+  margin-bottom: 1.5em;
+}
+form #bill, form #people {
+  background-color: hsl(185, 41%, 84%);
+  padding: 0.5em;
+  color: hsl(183, 100%, 15%);
+  opacity: 0.5;
+}
+
+.dollar {
+  width: 14px;
+  position: absolute;
+  margin-top: 2.4em;
+  margin-left: 1em;
+}
+
+.person {
+  width: 14px;
+  position: absolute;
+  margin-top: 23.7em;
+  margin-left: 1em;
+}
+
+h1 {
+  padding-top: 5em;
+  color: hsl(183, 100%, 15%);
+  opacity: 0.5;
+}
+
+.container {
+  margin: 5em auto;
+  background-color: hsl(0, 0%, 100%);
+  width: 800px;
+  height: auto;
+  padding: 2em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.result {
+  background-color: hsl(183, 100%, 15%);
+  width: 50%;
+  border-radius: 1em;
+  margin-left: 1em;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+.result p {
+  color: hsl(172, 67%, 45%);
+  opacity: 0.5;
+}
+.result div {
+  color: hsl(172, 67%, 45%);
+}
+.result h1 {
+  font-size: 24px;
+}
+.result button {
+  padding: 1em 10em;
+  border: none;
+  margin-bottom: 2em;
+  background-color: hsl(172, 67%, 45%);
+  opacity: 0.5;
+}
+.result .align__total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.result .align__divs1, .result .align__divs2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+}
+.result h1 {
+  color: hsl(0, 0%, 100%);
+  opacity: 1;
+}
+.result .align__divs1 {
+  position: absolute;
+}
+.result #Amount__per,
+.result #Total__per {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  margin-top: 4em;
+  margin-left: 8em;
+}
+.result #Amount__per {
+  margin-left: 11em;
+}
+
+.radios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding-top: 1.2rem;
+}
+.radios input:checked {
+  background-color: hsl(186, 14%, 43%);
+}
+.radios .custom {
+  width: 30%;
+  text-align: center;
+  margin-top: 1.5em;
+  border-radius: 0.2em;
+}
+.radios input[type=radio] {
+  display: none;
+}
+.radios label {
+  cursor: pointer;
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  width: 30%;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.2em;
+}
+
+/*# sourceMappingURL=index.css.map */
